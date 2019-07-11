@@ -35,12 +35,12 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, [
-	'MCHAT_TITLE'					=> 'mChat',
+	'MCHAT_TITLE'					=> 'DV-Chat',
 	'MCHAT_TITLE_COUNT'				=> [
-		0 => 'mChat',
-		1 => 'mChat [<strong>%1$d</strong>]',
+		0 => 'DV-Chat',
+		1 => 'DV-Chat [<strong>%1$d</strong>]',
 	],
-	'MCHAT_NAVBAR_CUSTOM_PAGE'		=> 'mChat pagina',
+	'MCHAT_NAVBAR_CUSTOM_PAGE'		=> 'DV-Chat pagina',
 	'MCHAT_NAVBAR_ARCHIVE'			=> 'Archief',
 	'MCHAT_NAVBAR_RULES'			=> 'Regels',
 
@@ -70,13 +70,13 @@ $lang = array_merge($lang, [
 	'MCHAT_STATIC_MESSAGE'			=> '',
 
 	// Post notification messages (%1$s is replaced with a link to the new/edited post, %2$s is replaced with a link to the forum)
-	'MCHAT_NEW_POST'				=> 'poste een nieuwe topic in: %1$s in %2$s',
-	'MCHAT_NEW_POST_DELETED'		=> 'poste een nieuwe topic dat werd verwijderd',
-	'MCHAT_NEW_REPLY'				=> 'poste een reactie: %1$s in %2$s',
-	'MCHAT_NEW_REPLY_DELETED'		=> 'poste een reactie dat werd verwijderd',
-	'MCHAT_NEW_QUOTE'				=> 'antwoordde met een citaat: %1$s in %2$s',
-	'MCHAT_NEW_QUOTE_DELETED'		=> 'poste een reactie dat werd verwijderd',
-	'MCHAT_NEW_EDIT'				=> 'bewerkte een post: %1$s in %2$s',
-	'MCHAT_NEW_EDIT_DELETED'		=> 'bewerkte een post dat werd verwijderd',
-	'MCHAT_NEW_LOGIN'				=> 'heeft zich net aangemeld',
+	'MCHAT_NEW_POST'			=> 'maakte een nieuwe topic aan: %1$s in %2$s',
+	'MCHAT_NEW_POST_DELETED'		=> 'verwijderde een nieuwe topic',
+	'MCHAT_NEW_REPLY'			=> 'plaatste een reactie: %1$s in %2$s',
+	'MCHAT_NEW_REPLY_DELETED'		=> 'verwijderde een reactie',
+	'MCHAT_NEW_QUOTE'			=> 'antwoordde met een citaat: %1$s in %2$s',
+	'MCHAT_NEW_QUOTE_DELETED'		=> 'verwijderde een reactie met citaat',
+	'MCHAT_NEW_EDIT'			=> 'bewerkte een bericht: %1$s in %2$s',
+	'MCHAT_NEW_EDIT_DELETED'		=> 'verwijderde een bewerkt bericht',
+	'MCHAT_NEW_LOGIN'			=> 'heeft zich net aangemeld',
 ]);
