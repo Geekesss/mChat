@@ -35,8 +35,8 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, [
-	'MCHAT_PREFERENCES'				=> 'mChat voorkeuren',
-	'MCHAT_NO_SETTINGS'				=> 'U bent niet bevoegd om instellingen aan te passen.',
+	'MCHAT_PREFERENCES'				=> 'DV-Chat voorkeuren',
+	'MCHAT_NO_SETTINGS'				=> 'Je bent niet bevoegd om instellingen aan te passen.',
 
 	'MCHAT_INDEX'					=> 'Toon op de index pagina',
 	'MCHAT_SOUND'					=> 'Schakel geluid in',
