@@ -35,5 +35,5 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, [
-	'UCP_MCHAT_CONFIG' => 'mChat',
+	'UCP_MCHAT_CONFIG' => 'DV-Chat',
 ]);
